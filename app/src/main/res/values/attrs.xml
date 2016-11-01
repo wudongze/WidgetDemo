@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextLayout">
+        <attr name="left_text" format="string"/><!--左文本-->
+        <attr name="right_text" format="string"/><!--右文本-->
+        <attr name="line_color" format="color"/><!--线的颜色-->
+        <attr name="left_text_size" format="dimension"/><!--左边文字的大小-->
+        <attr name="right_text_size" format="dimension"/><!--右边文字的大小-->
+        <attr name="left_text_color" format="color"/><!--左边文字的颜色-->
+        <attr name="right_text_color" format="color"/><!--右边文字的颜色-->
+        <attr name="is_show_line" format="boolean"/><!--是否显示横线-->
+    </declare-styleable>
+    <declare-styleable name="CircleView">
+        <attr name="r" format="dimension"/>
+        <attr name="position"><!--圆形绘制的位置-->
+            <flag name="left" value="0" />
+            <flag name="top" value="1" />
+            <flag name="center" value="2" />
+            <flag name="right" value="3" />
+            <flag name="bottom" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>

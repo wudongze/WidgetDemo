@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.wudz.widgetdemo.MyTextLayout
+        android:id="@+id/my_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:is_show_line="false"
+        app:left_text="商品价格"
+        app:line_color="#000000"
+        app:right_text="20元"></com.example.wudz.widgetdemo.MyTextLayout>
+
+    <com.example.wudz.widgetdemo.CircleView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:position="center"
+        app:r="50dp" />
+</RelativeLayout>
